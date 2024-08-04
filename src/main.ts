@@ -1,4 +1,3 @@
-import './style.css';
 import { stories } from './data';
 
 let activeStroy = 0;
