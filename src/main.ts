@@ -8,9 +8,9 @@ let direction = 'next';
 let storyTimeout: number;
 import { gsap } from 'gsap';
 const cursor = document.querySelector('.cursor');
-const cursorText = cursor?.querySelector('p');
+// const cursorText = cursor?.querySelector('p');
 const indices = document.querySelector('.indices');
-stories.forEach((story, index) => {
+stories.forEach(() => {
 	const newIndexDiv = document.createElement('div');
 	newIndexDiv.className = 'index';
 	const newIndexHighlight = document.createElement('div');
